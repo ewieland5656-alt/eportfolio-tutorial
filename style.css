@@ -26,6 +26,7 @@ section {
 
 .container {
   padding: 50px 0;
+  width: 100%;
 }
 
 .row {
@@ -211,6 +212,7 @@ PROJECTS
   border-radius: 20px;
   box-shadow: 0 20 80 0 rgb(0 0 0 / 0.45);
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
 .project__wrapper:hover .project__description {
@@ -268,3 +270,36 @@ PROJECTS
 .project__description--para {
   margin: 16px 0;
 }
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #242424;
+  display: flex;
+  padding: 6% 0;
+}
+
+.footer__row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__social--links {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin:28px 0
+}
+
+.footer__social--link,
+.footer__copyright{
+  color: white;
+}
+
+
